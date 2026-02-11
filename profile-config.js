@@ -65,7 +65,7 @@ window.PORTFOLIO_CONFIG = {
     {
       year: "Sekarang ",
       title: "Siswa Kelas XI TJTK",
-      desc: "Belajar dasar komputer, jaringan, elektronika, dan menghubungkannya dengan dunia aerospace.",
+      desc: "Belajar dasar komputer, jaringan, elektronika, dan menghubungkannya dengan dunia nyata.",
     },
     {
       year: "Masa Depan",
@@ -85,4 +85,5 @@ window.PORTFOLIO_CONFIG = {
     { icon: "fa-whatsapp", label: "WhatsApp", href: "https://wa.me/620881027467524" },
   ],
 };
+
 
