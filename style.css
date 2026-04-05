@@ -90,6 +90,7 @@ body.theme-contact {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
     gap: 16px;
 }
 
@@ -141,6 +142,9 @@ body.theme-contact {
     display: flex;
     gap: 10px;
     font-size: 0.84rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav-link {
@@ -210,6 +214,7 @@ body.theme-contact {
     text-decoration: none;
     box-shadow: 0 16px 40px rgba(15, 23, 42, 0.95), 0 0 0 1px rgba(148, 163, 184, 0.55);
     transition: transform 0.15s ease-out, box-shadow 0.15s ease-out, filter 0.15s ease-out;
+    margin-right: 50px;
 }
 
 .nav-cta i {

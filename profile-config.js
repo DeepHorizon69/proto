@@ -35,6 +35,11 @@ window.PORTFOLIO_CONFIG = {
       title: "Photography",
       desc: "Tertarik pada fotografi dan pengambilan gambar.",
     },
+    {
+      icon: "fa-solid fa-server",
+      title: "System Administration",
+      desc: "Mengelola dan memelihara infrastruktur server."
+    }
   ],
 
   missions: [
@@ -52,28 +57,37 @@ window.PORTFOLIO_CONFIG = {
         "Membuat desain web untuk memudahkan pengguna dalam mengakses informasi.",
       tech: ["HTML", "CSS", "JavaScript", "React"],
     },
-    {
+    {  
       title: "Prototype Game Roblox",
       type: "Game Development",
       description:
         "Membuat prototype game sederhana untuk mengasah kemampuan pemrograman.",
-      tech: ["lua",],
+      tech: ["Lua"],
+    },
+    {
+      title: "Home Server",
+      type: "System Administration",
+      description:
+         "Membuat home server sederhana menggunakan komponen sederhana.",
+      tech: ["Proxmox", "Docker","Linux","Tuneling"]
     },
   ],
 
   timelines: [
     {
-      year: "Sekarang ",
-      title: "Siswa Kelas XI TJTK",
-      desc: "Belajar dasar komputer, jaringan, elektronika, dan menghubungkannya dengan dunia nyata.",
+      year: "2015",
+      title: "Siswa SDS Printis Tanjung Mandiri",
+      desc: "Membangun fondasi pendidikan dasar dan mulai menumbuhkan rasa ingin tahu pada ilmu pengetahuan.",
     },
     {
-      year: "Masa Depan",
-      title: "Engineer / Profesional di Bidang Teknologi",
-      desc: "Ingin berkontribusi dalam teknologi komputer, elektronika, IoT, atau industri game.",
+      year: "2021",
+      title: "Siswa MTsN 7 Jombang",
+      desc: "Menempuh pendidikan menengah pertama, di mana minat terhadap dunia teknologi dan komputer mulai berkembang secara signifikan.",
     },
     {
-      year: "2026",
+      year: "2024-Present",
+      title: "Siswa SMK MUHAMMADIYAH 1 Surabaya",
+      desc: "Fokus mendalami keahlian vokasi di bidang Teknik Jaringan Komputer dan Telekomunikasi (TJKT), mengeksplorasi IoT, serta administrasi sistem.",
     }
   ],
 
@@ -85,5 +99,3 @@ window.PORTFOLIO_CONFIG = {
     { icon: "fa-whatsapp", label: "WhatsApp", href: "https://wa.me/620881027467524" },
   ],
 };
-
-
